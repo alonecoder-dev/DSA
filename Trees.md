@@ -1,6 +1,6 @@
 # TREES
 
-
+---
 The Primitives:
  * Node Representation: First, understand the building block. A node with data, a left pointer, and a right pointer. Internalize this.
  * Depth-First Search (DFS) Traversal:
@@ -18,6 +18,9 @@ The Primitives:
 For EACH of these four traversals (In, Pre, Post, Level-Order), your standard of "mastery" is:
  * You can code the recursive and iterative versions from scratch in under 5 minutes.
  * You can take any sample tree on paper and manually trace the output, showing the state of the stack or queue at each step.
+
+---
+
 Phase 2: Applying the Primitives - Classic Binary Tree (BT) Problems
 Now, and only now, do you start solving problems. You will notice that each problem is a slight variation of the traversals you just mastered.
 The Order of Attack:
@@ -32,6 +35,9 @@ The Order of Attack:
    * Vertical Order Traversal: A combination of level-order and tracking horizontal distance.
  * Lowest Common Ancestor (LCA): A classic problem that solidifies your understanding of recursive paths.
  * Boundary Traversal: A composite problem. It's (Left boundary) + (All leaves) + (Reverse of Right boundary). This tests your ability to break a problem down and reuse traversal logic.
+
+---
+
 Phase 3: Specialization - The Binary Search Tree (BST)
 A BST is a Binary Tree with a specific rule (the BST-invariant). This rule enables optimizations.
 The Order of Attack:
