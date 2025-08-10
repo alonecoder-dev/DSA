@@ -1,6 +1,48 @@
-# TREES
+# TREES List
+
+## 1. Traversal Primitives
+
+- Node structure (data, left, right)
+- DFS traversals  
+  - In-order (recursive & iterative with stack)  
+  - Pre-order (recursive & iterative with stack)  
+  - Post-order (recursive & two iterative variants: two-stack or single-stack)  
+- BFS traversal  
+  - Level-order (queue based)
+  - Level-order variations  
+    - Zigzag  
+    - Reverse (bottom-up)
+
+## 2. Foundational Binary-Tree Problems
+
+- Height / Maximum depth
+- Diameter
+- Tree views  
+  - Right view  
+  - Left view  
+  - Top view  
+  - Bottom view  
+  - Vertical order
+- Lowest Common Ancestor (LCA)
+- Boundary traversal (left boundary + leaves + reversed right boundary)
+
+## 3. Binary Search Tree (BST) Core
+
+- BST invariant: left < root < right
+- Search (recursive & iterative)
+- Insert (recursive & iterative)
+- Validate BST  
+  - In-order approach  
+  - Min/max bounds approach
+- k-th smallest / k-th largest element
+- Floor / Ceil in a BST
+- Deletion cases  
+  - Leaf  
+  - One child  
+  - Two children
 
 ---
+
 The Primitives:
  * Node Representation: First, understand the building block. A node with data, a left pointer, and a right pointer. Internalize this.
  * Depth-First Search (DFS) Traversal:
@@ -48,4 +90,3 @@ The Order of Attack:
  * Kth Smallest / Largest Element in a BST: Think about your traversals. Which one naturally visits nodes in sorted order? In-order. This is a direct application.
  * Find Floor/Ceil in a BST: Tests your ability to intelligently navigate the tree using the BST invariant.
  * Deletion from a BST: This is the most complex BST operation. Handle the three cases: deleting a leaf, a node with one child, and a node with two children.
-.
